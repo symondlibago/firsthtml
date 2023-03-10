@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>
+       YUNA
+    </h1>
+    <nav>
+        <ul>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact us</a></li>
+              </ul>
+        </ul>
+    </nav>
+
+    <p> FIRST WEBPAGE</p>
+
+    <footer> THIS IS FOOTER </footer>
+
+</body>
+</html>
+
+
+
+
+
+
+
+nav {
+    background-color: #c90101;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px; 
+   
+  }
+  
+  nav li a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+   
+  }
+  
+  nav li a:hover {
+    background-color: #b10808;
+  }
+
+  h1 {
+    background-color: aqua;
+    text-align: center;
+  }
+
+  footer {
+    margin-top: 500px;
+    background-color: aqua;
+    padding: 50px 50px;
+    text-align: center;
+    
+  }
